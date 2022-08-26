@@ -1,0 +1,17 @@
+print ("Ingrese la cantidad de númeraos a comparar:")
+lim = int( input())
+print ("Ingrese los números:")
+n = int( input ("Ingrese número: "))
+
+men = n
+may = n
+
+for i in range(1, lim):
+    n = int(input("Ingrese número: "))
+    if n < men:
+        men = n
+        else:
+        if n > may:
+            may = n
+
+print ("El número menor es: " ,men)
